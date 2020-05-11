@@ -6,7 +6,6 @@ include "header.php";
 
 
 <header>
-
   <nav class="navbar navbar-expand-lg mb-10 mx-auto">
   <a class="navbar-brand flex-grow-1" href="#"> <img src="img/logo.png" alt="logo"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,8 +18,7 @@ include "header.php";
     </div>
   </div>
 </nav>
-
-<div class="container">
+<div class="container headercontainer">
   <div class="row mx-auto mb-0">
     <div class="col1"><img src="img/phone.png" alt="phone">
     </div>
@@ -28,31 +26,84 @@ include "header.php";
       <h1 class="headertitle pb-5">Join more than <span class="text-white">1000+</span> <br> satisfied users</h1>
       <div class="headertext py-5 text-white">
       <a>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
-      A compagny is only as good as the people it keeps.</a><br>
+      A compagny is only as good as the people it keeps.</a>
       </div>
-      <a href="index.php" />
+      <a href="index.php"
       <img class="androidbutton py-5"src="img/androidappbutton.png" alt="android application download"/>
+    </a>
       </div>
   </div>
 </div>
-
 </header>
 
-<section>
-  <div class="container">
+
+<section class="article1">
+  <div class="container section1">
     <div class="row mx-auto mb-0">
-      <div class="headertext py-5 text-white">
-        <h1 class="headertitle pb-5 text-white">What you Get</h1>
+      <div class="col1 sectiontext text-white">
+        <h1 class="sectiontitle text-white pb-5">What you Get</h1>
+        <div class="sectiontext pb-5">
       <a>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
-      A compagny is only as good as the people it keeps.</a><br>
-      <button class="btn" type="getit">Get It Now</button>
+      A compagny is only as good as the people it keeps.</a>
+    </div>
+      <div>
+      <a href="index.php" class="btn btn-primary btn-lg active buttona" role="button" aria-pressed="false">GET IT NOW</a>
       </div>
+      </div>
+
+      <div class="col2">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/slide.png" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/slide2.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/slide3.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+      </div>
+</section>
+
+<section class="article2">
+  <h1 class="a2title text-white">Some words from our owners</h1>
+  <p class=" p2 text-black">People are definitely a compagny's greatest asset.<br>It dosen't make any difference</p>
+  <div class="container headercontainer">
+    <div class="row mx-auto mb-0">
+      <div class="col1"><img src="img/phone2.png" alt="phone">
       </div>
       <div class="col2">
-        <a href="index.php" />
+        <div class="headertext py-5 text-white">
+        <a>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
+        A compagny is only as good as the people it keeps.</a>
+
         </div>
     </div>
   </div>
+</div>
 </section>
 
 
