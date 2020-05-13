@@ -97,7 +97,7 @@ include "header.php";
       </div>
       <div class="col2">
         <div class="headertext py-5 text-black">
-          <div class="speech-bubble py-5 px-5 mx-1">
+          <div class="speech-bubble py-3 px-5 mx-1">
         <p>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
         A compagny is only as good as the people it keeps.<br><br>
         <span class="johndoe"> John Doe</span>
@@ -119,9 +119,18 @@ include "header.php";
   <form>
   <div class="form-group">
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Mail">
-  <button type="submit" class="btn btn-primary buttonb px-9">SEND</button>
+  <button type="submit" class="btn btn-primary buttonb">SEND</button>
 </form>
 </section>
+
+<footer>
+
+  <img class="pb-4"src="img/logofooter.png" alt="logo">
+  <p>
+    © 2016-<span class="nordfooter">NORD</span> All Right Reserved
+  </p>
+
+</footer>
 
 
  <?php
