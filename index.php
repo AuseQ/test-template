@@ -1,4 +1,4 @@
-<?php
+s<?php
 
 include "header.php";
 
@@ -96,14 +96,31 @@ include "header.php";
       <div class="col1"><img src="img/phone2.png" alt="phone">
       </div>
       <div class="col2">
-        <div class="headertext py-5 text-white">
-        <a>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
-        A compagny is only as good as the people it keeps.</a>
+        <div class="headertext py-5 text-black">
+          <div class="speech-bubble py-5 px-5 mx-1">
+        <p>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
+        A compagny is only as good as the people it keeps.<br><br>
+        <span class="johndoe"> John Doe</span>
+
+      </p>
+      </div>
 
         </div>
     </div>
   </div>
 </div>
+</section>
+<section class="joinus py-5 ">
+  <h1 class="titrejoinus pb-5">Join us</h1>
+  <p class="pb-5">
+    we will send you from time to time<br>
+    mail about our news and offers
+  </p>
+  <form>
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Mail">
+  <button type="submit" class="btn btn-primary buttonb px-9">SEND</button>
+</form>
 </section>
 
 
