@@ -24,17 +24,18 @@ margin-bottom: 10%;
 .row
 {
   justify-content: center;
-  
+
 }
-.col1
+.imgheader
 {
-  margin-right: 12rem;
+  text-align: center;
 }
 .article1
 {
   background-color: rgb(38, 42, 52);
   padding-top: 10%;
   padding-bottom: 5%;
+
 }
 .buttona
 {
@@ -45,9 +46,19 @@ margin-bottom: 10%;
 .sectiontext
 {
   line-height: 2rem;
-
 }
-
+.imgleft
+{
+  text-align: center;
+}
+.lefttext
+{
+  width: 80%
+}
+.sliderpos
+{
+text-align: center !important;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
