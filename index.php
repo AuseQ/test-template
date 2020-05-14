@@ -28,7 +28,9 @@ include "header.php";
       <a>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
       A compagny is only as good as the people it keeps.</a>
       </div>
-      <img class="androidbutton py-5"src="img/androidappbutton.png" alt="android application download"/>
+      <a href="index.php">
+      <img  class="androidbutton py-5"src="img/androidappbutton.png" alt="android application download"/>
+      </a>
       </div>
   </div>
 </div>
