@@ -58,17 +58,14 @@ include "header.php";
 
 <div class="mySlides sliderpos fade">
   <img src="img/slide.png" style="">
-  <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides sliderpos fade">
   <img src="img/slide2.png" style="">
-  <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides sliderpos fade">
   <img src="img/slide3.png" style="">
-  <div class="text">Caption Three</div>
 </div>
 
 
