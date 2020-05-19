@@ -201,6 +201,7 @@ footer{
 	.second {
 		order: 2;
     margin-top: 20px;
+  text-align: center !important;
 	}
   .speech-bubble:after {
   	content: '';
@@ -223,5 +224,18 @@ footer{
   #h1span
   {
     color: black !important;
+  }
+  .sectiontext{
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+  .headerarticle
+  {
+    text-align: center !important;
+  }
+    .article2title
+  {
+    width: 90%;
+    margin: auto;
   }
 }

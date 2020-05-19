@@ -22,7 +22,7 @@ include "header.php";
   <div class="row mx-auto mb-0">
     <div class="col-sm imgleft second"><img class="imgheader" src="img/phone.png" alt="phone">
     </div>
-    <div class="col-sm first">
+    <div class="col-sm first headerarticle">
 
       <h1 class="headertitle pb-5">Join more than <span id="h1span" class="text-white">1000+</span> <br> satisfied users</h1>
       <div class="headertext py-5 text-white">
@@ -84,8 +84,10 @@ include "header.php";
 </section>
 
 <section class="article2">
+  <div class="article2title">
   <h1 class="a2title text-white">Some words from our owners</h1>
   <p class=" p2 text-black">People are definitely a compagny's greatest asset.<br>It dosen't make any difference</p>
+  </div>
   <div class="container headercontainer">
     <div class="row mx-auto ">
       <div id="img-right" class="col-sm second"><img src="img/phone2.png" alt="phone">
