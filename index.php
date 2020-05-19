@@ -20,12 +20,13 @@ include "header.php";
 </nav>
 <div class="container headercontainer">
   <div class="row mx-auto mb-0">
-    <div class="col-sm imgleft"><img class="imgheader" src="img/phone.png" alt="phone">
+    <div class="col-sm imgleft second"><img class="imgheader" src="img/phone.png" alt="phone">
     </div>
-    <div class="col-sm">
-      <h1 class="headertitle pb-5">Join more than <span class="text-white">1000+</span> <br> satisfied users</h1>
+    <div class="col-sm first">
+
+      <h1 class="headertitle pb-5">Join more than <span id="h1span" class="text-white">1000+</span> <br> satisfied users</h1>
       <div class="headertext py-5 text-white">
-      <a>People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
+      <a class="headerresp">People are definitely a compagny's greatest asset.<br>It dosen't make any difference<br> wheter the product is cars or cosmetics.<br>
       A compagny is only as good as the people it keeps.</a>
       </div>
       <a href="index.php">
@@ -87,9 +88,9 @@ include "header.php";
   <p class=" p2 text-black">People are definitely a compagny's greatest asset.<br>It dosen't make any difference</p>
   <div class="container headercontainer">
     <div class="row mx-auto ">
-      <div id="img-right" class="col-sm"><img src="img/phone2.png" alt="phone">
+      <div id="img-right" class="col-sm second"><img src="img/phone2.png" alt="phone">
       </div>
-      <div class="col-sm">
+      <div class="col-sm first">
         <div class="headertext text-black">
           <div class="speech-bubble">
             <div class="quot">&quot;</div>
